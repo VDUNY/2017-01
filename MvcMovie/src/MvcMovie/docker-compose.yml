@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  mvcmovie:
+    image: mvcmovie
+    build:
+      context: .
+      dockerfile: Dockerfile
